@@ -45,30 +45,31 @@ Key queries:
 
 - Discount impact on average profit:
 
-Discount range	 Orders  	Profit average Total sales
-No discount     	 4798	            66.9	1087908.47
-1-20%	             3803	            26.5   846522.17
-20-40%	            460	          -77.86	 234138.04
-40-60%	            215	         -134.62  	71048.31
-60%+	              718	          -98.35  	57584.08
+| Discount Range | Orders | Avg Profit |
+|----------------|--------|------------|
+| No discount    | 4,798  | 66.90      |
+| 1–20%          | 3,803  | 26.50      |
+| 20–40%         | 460    | -77.86     |
+| 40–60%         | 215    | -134.62    |
+| 60%+           | 718    | -98.35     |
 
   *Any discount above 20% results in negative average profit, making aggressive discounting one of the biggest profit leaks in the business.
 
 
 - States selling at a loss:
 
-State	       Total sales	Total profit
-Texas	         170187.98	-25729.3563
-Ohio	          78258.21	-16971.3766
-Pennsylvania	 116512.02	-15559.9603
-Illinois	      80166.16	-12607.887
-North Carolina	55603.09	-7490.9122
-Colorado	      32108.12	-6527.8579
-Tennessee	      30661.92	-5341.6936
-Arizona	        35282.02	-3427.9246
-Florida       	89473.73	-3399.3017
-Oregon	        17431.14	-1190.4705
-
+| State	         | Total sales | Total profit |
+|----------------|-------------|--------------|
+|Texas	         |170187.98	|-25729.3563|
+|Ohio	           |78258.21	|-16971.3766|
+|Pennsylvania	   |116512.02	|-15559.9603|
+|Illinois	       |80166.16	|-12607.887|
+|North Carolina	 |55603.09	|-7490.9122|
+|Colorado	       |32108.12	|-6527.8579|
+|Tennessee	     |30661.92	|-5341.6936|
+|Arizona	       |35282.02	|-3427.9246|
+|Florida       	 |89473.73	|-3399.3017|
+|Oregon	         |17431.14	|-1190.4705|
 
   *Despite generating combined revenue of nearly $700K, states like Texas (-$25.7K), Ohio (-$16.9K) and Pennsylvania (-$15.5K) are all unprofitable.
 
@@ -76,18 +77,21 @@ Oregon	        17431.14	-1190.4705
 - Which month is historically the best and worst for sales:
 
 Month	Average sales
-11	  88115.27
-12	  81323.39
-9	    76912.49
-3	    51251.38
-10	  50080.76
-8	    39761.00
-5	    38757.21
-6	    38179.68
-7	    36809.53
-4	    34440.54
-1	    23731.22
-2	    14937.82
+
+| Month	         | Average sales |
+|----------------|---------------|
+|11	             |88115.27|
+|12	             |81323.39|
+|9	             | 76912.49|
+|3	             | 51251.38|
+|10	             |50080.76|
+|8	             | 39761.00|
+|5	             | 38757.21|
+|6	             | 38179.68|
+|7	             | 36809.53|
+|4	             | 34440.54|
+|1	             | 23731.22|
+|2	             | 14937.82|
 
   *November and December drive peak revenue, averaging $88K and $81K respectively, while January and February are consistently the weakest months at $23.7K and $14.9K.
 
